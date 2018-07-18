@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>rx_hopac</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hopac" Version="0.3.23" />
+    <PackageReference Include="System.Reactive" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>
